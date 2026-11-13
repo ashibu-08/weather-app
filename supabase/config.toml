@@ -1,0 +1,4 @@
+project_id = "fieldday"
+[functions.weather-coach]
+# JWTs are validated with auth.getUser inside the function, supporting current signing keys.
+verify_jwt = false
