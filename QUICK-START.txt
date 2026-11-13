@@ -1,0 +1,21 @@
+FIELDDAY — QUICK START
+
+1. Install Node.js 24 LTS from nodejs.org.
+2. Extract this ZIP.
+3. Open a terminal in the Fieldday folder.
+4. Run npm ci
+5. Run npm run dev
+6. Open the address printed by Vite and select Start planning.
+
+UPLOAD TO YOUR EXISTING GITHUB REPO
+Upload the folder CONTENTS, including the hidden .github folder.
+Do not upload node_modules, .env.local, or API keys.
+Enable Settings > Pages > Source: GitHub Actions.
+Use the main branch or change the workflow branch.
+Run the Deploy Fieldday workflow in the Actions tab.
+
+NO KEY NEEDED TO TRY IT
+Saved plans, live weather and scheduling work in device mode immediately.
+Accounts/cloud sync: optional Supabase setup, explained in README.md.
+AI coach: server code is included; add your key in Supabase Secrets later.
+Never put the OpenAI API key into frontend code or GitHub.
